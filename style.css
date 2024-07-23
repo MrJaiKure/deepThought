@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+
+
+    background-color: #fff;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+header h1 {
+    color: #0033cc;
+}
+
+nav {
+
+    color: black;
+
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.intro-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(197, 191, 191);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-around;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-around;
+
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+    margin: 10px;
+    width: calc(50% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 60vh;
+    width: 50vh;
+}
+
+.card h3 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thread,
+.example {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 110px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+
+button {
+    background-color: #0033cc;
+    color: #fff;
+    padding: 5px 32px;
+    cursor: pointer;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+
+    padding: 20px;
+
+    gap: 10px;
+    align-items: end;
+}
+
+footer button {
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer a {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
